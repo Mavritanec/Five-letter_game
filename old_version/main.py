@@ -201,12 +201,79 @@ if __name__ == '__main__':
     #  '09.08': 'ведро - акция - пицца',
     #  '10.08': 'страх - бегун - взлом - мидия - мякиш',
     #  '11.08': 'обман - адрес - ветка',
-    #  '12.08': 'вагон - вздор',
-    #  '13.08': 'ангел',
-    #  '14.08': 'валик',
-    #  '15.08': 'среда',
-    #  '16.08': 'норма',
-    #  '17.08': 'догма'}
+    #  '12.08': 'вагон - вздор'}
+
+    # {'04.11': 'ангел - барин - народ',
+    #  '05.11': 'валик - икона - нитка - книга',
+    #  '06.11': 'среда - аборт - комар',
+    #  '07.11': 'норма - бисер - кучер - ветер',
+    #  '08.11': 'догма - диван',
+    #  '09.11': 'нитка - ангел - барон',
+    #  '10.11': 'барин - гарем - паром',
+    #  '11.11': 'бочка - автор - народ - район',
+    #  '12.11': 'обман - адепт - актив - астра',
+    #  '13.11': 'автор - грант - карта',
+    #  '14.11': 'толпа - беляш - зелье - гелий - велюр',
+    #  '15.11': 'блоха - веник - кисет - тикер', # новое слово (в словаре такого не было)
+    #  '16.11': 'гарем - богач - книга - слуга - шпага',
+    #  '17.11': 'ангел - барин - навоз - тайна - фанат',
+    #  '18.11': 'барон - актив - идеал - улица - лимфа',
+    #  '19.11': 'аборт - блюдо - бекон - бонус',
+    #  '20.11': 'ветка - бидон - бизон',
+    #  '21.11': 'скоба - салют - сенат',
+    #  '22.11': 'бегун - автор - товар',
+    #  '23.11': 'апорт - белка - вклад - склад',
+    #  '24.11': 'школа - бегун - принц',
+    #  '25.11': 'веник - закон',
+    #  '26.11': 'барин - бетон',
+    #  '27.11': 'слуга - аборт - заряд - радар',
+    #  '28.11': 'заряд - мороз - ферзь',
+    #  '29.11': 'автор - отказ - стадо',
+    #  '30.11': 'икона - крест - кучер',
+    #  '01.12': 'нитка - блюдо - вырез - верфь',
+    #  '02.12': 'актив - домик - кумир',
+    #  '03.12': 'бидон - аборт - столб',
+    #  '04.12': 'закон - аверс - сфера',
+    #  '05.12': 'бекон - бедро'}
+    # Розыгрыш призов: 05.12 в 12.00. Ссылка: https://youtube.com/live/z37RTmam5pQ
+    # Мои билеты:
+    # ( 1 700 247,  2 319 006,  2 872 620,  3 636 666,  3 957 466,
+    #   5 173 374,  5 591 424,  6 949 282,  8 185 963,  8 799 733,
+    #   9 229 733, 10 148 983, 11 039 751, 12 136 670, 12 905 348,
+    #  14 378 953, 14 845 847, 15 942 606, 16 953 072, 17 995 600,
+    #  18 985 053, 20 015 065, 21 058 095, 22 173 983, 23 274 169,
+    #  24 550 734, 25 514 312, 26 519 962, 28 138 372)
+
+    # {'18.12': 'ангел - индюк - унция',
+    #  '19.12': 'валик - бегун - тонус',
+    #  '20.12': 'среда - бонус - пульс',
+    #  '21.12': 'норма - город - порок - шорох - торос',
+    #  '22.12': 'школа - залог - галоп',
+    #  '23.12': 'веник - аборт - собор - бугор',
+    #  '24.12': 'барин - ветка - шквал',
+    #  '25.12': 'слуга - белок - лидер - хмель',
+    #  '26.12': 'заряд - бекон - живот - оплот - топот',
+    #  '27.12': 'автор - связь',
+    #  '28.12': 'икона - дятел - рубль - мысль',
+    #  '29.12': 'нитка - блоха - хорда',
+    #  '30.12': 'актив - билет - идиот - шрифт',
+    #  '31.12': 'бидон - весло - тепло',
+    #  '01.01': 'закон - бисер - штурм - прыть',
+    #  '02.01': 'ветка - багор - аршин - айран',
+    #  '03.01': 'залог - бланк - эмаль - хвала - шпала',
+    #  '04.01': 'бекон - ампир - пласт - сплав',
+    #  '05.01': 'бетон - вишня - шланг',
+    #  '06.01': 'сенат - лесть - месть - тесть',
+    #  '07.01': 'товар - забор - запор - зазор',
+    #  '08.01': 'стадо - совет - сотня',
+    #  '09.01': 'вклад - комар - показ',
+    #  '10.01': 'склад - холст - голос - полис',
+    #  '11.01': 'блоха - обида - кобра',
+    #  '12.01': 'аборт - венок - взлом - вызов - вывоз',
+    #  '13.01': 'лидер',
+    #  '14.01': 'багор',
+    #  '15.01': 'отказ',
+    #  '16.01': 'залог'}
 
     # get_dictionary()
     # print('Total lines in file:', get_line_count('dictionary.txt'))
@@ -217,32 +284,40 @@ if __name__ == '__main__':
     print('Total lines in file:', get_line_count('5-character dictionary.txt'))
 
 
-
-    # get_words_without_symbol_on_position('5-character dictionary.txt', '01', 'о', 2)
-    # get_words_with_symbol('01-dictionary.txt', 'о')
-    # get_words_without_symbol_on_position('о-dictionary.txt', '02', 'х', 3)
-    # get_words_with_symbol('02-dictionary.txt', 'х')
-    # get_words_without_symbol('х-dictionary.txt', '03', 'б')
-    # get_words_without_symbol('03-dictionary.txt', '04', 'л')
+    # get_words_without_symbol_on_position('5-character dictionary.txt', '01', 'р', 2)
+    # get_words_with_symbol('01-dictionary.txt', 'р')
+    # get_words_without_symbol('р-dictionary.txt', '02', 'н')
+    # get_words_without_symbol('02-dictionary.txt', '03', 'о')
+    # get_words_without_symbol('03-dictionary.txt', '04', 'м')
     # get_words_without_symbol('04-dictionary.txt', '05', 'а')
     # print('Total lines in file:', get_line_count('05-dictionary.txt'))
-    # get_words_with_symbol_on_position('05-dictionary.txt', '06', 'в', 0)
-    # get_words_with_symbol_on_position('06-dictionary.txt', '07', 'о', 3)
-    # get_words_without_symbol_on_position('07-dictionary.txt', '08', 'д', 2)
-    # get_words_with_symbol('08-dictionary.txt', 'д')
-    # get_words_without_symbol_on_position('д-dictionary.txt', '09', 'х', 4)
-    # get_words_with_symbol('09-dictionary.txt', 'х')
-    # get_words_without_symbol('х-dictionary.txt', '10', 'з')
+    # get_words_with_symbol_on_position('05-dictionary.txt', '06', 'е', 3)
+    # get_words_with_symbol_on_position('06-dictionary.txt', '07', 'р', 4)
+    # get_words_without_symbol('07-dictionary.txt', '08', 'б')
+    # get_words_without_symbol('08-dictionary.txt', '09', 'и')
+    # get_words_without_symbol('09-dictionary.txt', '10', 'с')
     # print('Total lines in file:', get_line_count('10-dictionary.txt'))
-    # get_words_with_symbol_on_position('09-dictionary.txt', '10', 'к', 4)
-    # get_words_without_symbol('10-dictionary.txt', '11', 'м')
-    # get_words_without_symbol('11-dictionary.txt', '12', 'е')
-    # get_words_without_symbol('12-dictionary.txt', '13', 'д')
+    # get_words_without_symbol('10-dictionary.txt', '11', 'к')
+    # get_words_without_symbol('11-dictionary.txt', '12', 'у')
+    # get_words_without_symbol('12-dictionary.txt', '13', 'ч')
     # print('Total lines in file:', get_line_count('13-dictionary.txt'))
-    # get_words_without_symbol('13-dictionary.txt', '14', 'л')
-    # get_words_without_symbol('14-dictionary.txt', '15', 'у')
-    # get_words_without_symbol('15-dictionary.txt', '16', 'ч')
-    # print('Total lines in file:', get_line_count('16-dictionary.txt'))
+    # get_words_without_symbol_on_position('05-dictionary.txt', '06', 'а', 0)
+    # get_words_with_symbol('06-dictionary.txt', 'а')
+    # get_words_without_symbol_on_position('а-dictionary.txt', '07', 'о', 2)
+    # get_words_with_symbol('07-dictionary.txt', 'о')
+    # get_words_without_symbol_on_position('о-dictionary.txt', '08', 'р', 3)
+    # get_words_with_symbol('08-dictionary.txt', 'р')
+    # get_words_without_symbol('р-dictionary.txt', '09', 'б')
+    # get_words_without_symbol('09-dictionary.txt', '10', 'т')
+    # print('Total lines in file:', get_line_count('10-dictionary.txt'))
+    # get_words_without_symbol_on_position('10-dictionary.txt', '11', 'н', 0)
+    # get_words_with_symbol('11-dictionary.txt', 'н')
+    # get_words_without_symbol_on_position('н-dictionary.txt', '12', 'и', 1)
+    # get_words_with_symbol('12-dictionary.txt', 'и')
+    # get_words_without_symbol_on_position('и-dictionary.txt', '13', 'к', 3)
+    # get_words_with_symbol('13-dictionary.txt', 'к')
+    # get_words_without_symbol('к-dictionary.txt', '14', 'т')
+    # print('Total lines in file:', get_line_count('14-dictionary.txt'))
     # get_words_with_symbol_with_count('16-dictionary.txt', '17', 'и', 1)
     # get_words_without_symbol('17-dictionary.txt', '18', 'ф')
     # get_words_without_symbol('18-dictionary.txt', '19', 'з')
